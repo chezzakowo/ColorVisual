@@ -21,8 +21,8 @@ function changeBackground(value) {
         box.style.backgroundColor = value;
         document.body.style.backgroundColor = value;
     } else {
-        box.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
-        document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
+        box.style.backgroundImage = "none";
+        document.body.style.backgroundImage = "none";
     }
 }
 
