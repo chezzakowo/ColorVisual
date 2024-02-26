@@ -21,14 +21,14 @@ function changeBackground(value) {
         box.style.backgroundColor = value;
         document.body.style.backgroundColor = value;
     } else {
-        box.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg?ex=65ef0e2f&is=65dc992f&hm=fd6b92bb4f63956dca732a371e5b5434704b2defb59f6529423de14943be1135&')";
-        document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg?ex=65ef0e2f&is=65dc992f&hm=fd6b92bb4f63956dca732a371e5b5434704b2defb59f6529423de14943be1135&')";
+        box.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
+        document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
     }
 }
 
 function resetBackground() {
-    box.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg?ex=65ef0e2f&is=65dc992f&hm=fd6b92bb4f63956dca732a371e5b5434704b2defb59f6529423de14943be1135&')";
-    document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg?ex=65ef0e2f&is=65dc992f&hm=fd6b92bb4f63956dca732a371e5b5434704b2defb59f6529423de14943be1135&')";
+    box.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
+    document.body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1044570469279481907/1211673823364251688/FB_IMG_1705191223026.jpg')";
 }
 
 function isValidColor(color) {
